@@ -18,7 +18,7 @@ function orderNow(){
         else{
             swal({   
                 title: "Enter Item Quantity!",   
-                text: "Enter The Quantity Of Item You Are Ordering (In Digits):",   
+                text: "Enter Item Quantity (In Digits):",   
                 content: "input",
                 button: "Confirm Order"
             }).then((confirmOrder)=>{
