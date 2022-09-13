@@ -1,0 +1,234 @@
+/* HOME SECTION */
+
+/* navbar inside home section */
+#div-of-logo-nav img{
+    width: 6.2rem;
+}
+
+#div-for-anchor-nav{
+    margin: 0.3rem 0rem;
+}
+
+#div-of-searchBar-nav{
+    position: absolute;
+    top: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    right: 8px;
+}
+
+#search-icon-hidden-div > div{
+    width: auto;
+}
+
+#search-icon-hidden-div > div > input{
+    width: 80%;
+}
+
+/* Home section after navbar */
+#back-to-top-btn{
+    z-index: 1;
+    padding: 0px 3px;
+    width: 5rem;
+    right: 20px;
+    font-size: 1.1rem;
+    display: none;
+}
+
+#div-of-home-after-navbar{
+    width: auto;
+}
+
+#div-of-home-after-navbar h1{
+    font-size: 2.2rem;
+}
+
+/* Workout section */
+#workout-section-heading{
+    font-size: 1.8rem;
+    margin: 1rem auto;
+}
+
+#workout-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.box img{
+    width: 100%;
+}
+
+/* Facilities section */
+#facilities-section-main-heading{
+    font-size: 2rem;
+}
+
+.facilities-section-container-div{
+    flex-direction: column;
+}
+
+.div-of-facilities-section{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-of-facilities-section h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.div-of-facilities-section img {
+    width: auto;
+    height: auto;
+    margin: 1rem 0rem;
+}
+
+/* Join-now section */
+#main-heading-join-now-section {
+    font-size: 2.2rem;
+}
+
+#join-now-section form{
+    width: 75%;
+}
+
+#join-now-section form h1 {
+    font-size: 2rem;
+}
+
+#join-now-section form #submit-btn {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width: auto;
+}
+
+/* About-us-section */
+#about-us-section{
+    height: 100%;
+}
+
+#about-us-section h1 {
+    font-size: 2.2rem;
+}
+
+#about-us-section div{
+    flex-direction: column;
+    padding: 0rem 2rem;
+}
+
+#about-us-section div img{
+    width: 100%;
+}
+
+#about-us-section div p{
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+/* Contact-us-section */
+#contact-us-section{
+    position: relative;
+}
+
+#contact-us-section h1 {
+    font-size: 2rem;
+}
+
+#contact-us-section h2 {
+    font-size: 1.2rem;
+}
+
+#contact-us-section::before{
+    height: 100%;
+}
+
+#contact-us-section form{
+    width: 100%;
+}
+
+#contact-us-section form #send-message-btn{
+    width: auto;
+}
+
+/* media queries for (max width: 350px) and (max-width: 351px - 475px) only for navbar */
+@media screen and (max-width: 350px) {
+    #div-for-anchor-nav a{
+        padding: 1px 2.2px;
+        margin: 0px;
+        font-size: 1.02rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #join-now-section form{
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 351px) and (max-width: 475px) {
+    #div-for-anchor-nav a{
+        padding: 1px 5px;
+        margin: 0px;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 476px) and (max-width: 1240px) {
+    #div-for-anchor-nav a{
+        padding: 1px 7px;
+        margin: 5px;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #div-of-searchBar-nav{
+        position: relative;
+        top: 10px;
+        right: 0px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #about-us-section div p{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 765px){
+    #about-us-section div img {
+        height: 80vh;
+    }
+}
+
+@media screen and (min-width: 766px) and (max-width: 1239px){
+    #about-us-section{
+        width: 75%;
+    }
+    
+    #about-us-section div img {
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #about-us-section div {
+        padding: 0rem 1.2rem;
+    }   
+}
+
+@media screen and (max-width: 325px) {
+    #search-icon-hidden-div > div {
+        padding: 0px 6px;
+    }
+}
+
