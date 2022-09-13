@@ -1,0 +1,108 @@
+#navbar{
+    flex-direction: column;
+}
+
+.navbaritem {
+    margin: 0rem 0.15rem;
+    padding: 0.25rem 0.3rem;
+    font-size: 1rem;
+} 
+
+#back-to-top-btn{
+    z-index: 1;
+    padding: 0px 3px;
+    width: 5rem;
+    right: 20px;
+    font-size: 1.1rem;
+    right: 1rem;
+    display: none;
+}
+
+#services-section{
+    flex-direction: column;
+}
+
+.services-box{
+    width: auto;
+}
+
+#clients-section{
+    text-align: center;
+}
+
+#clients-section div img {
+    width: 6rem;
+    margin: 1rem 0.9rem;
+    padding: 1rem;
+}
+
+#contact-section form {
+    width: 80%;
+}
+
+
+/* This is only for (max-width: 280px, max-width: 320px, max-width: 400px) */
+@media screen and (min-width:250px) and (max-width: 280px){
+    .navbaritem{
+        margin: 0rem 0.2rem;
+        padding: 0.1rem 0.21rem;
+        font-size: 0.84rem;
+    }
+
+    #home-section-heading {
+        font-size: 2.2rem;
+    }
+
+    #home-section-and-navbar > div p{
+        font-size: 1rem;
+    }
+
+    #home-section-and-navbar > div button {
+        border: 3.5px solid white;
+    }
+
+    #clients-section div img{
+        width: 4.8rem;
+    }
+}
+
+
+@media screen and (min-width: 282px) and (max-width: 320px){
+    .navbaritem{
+        margin: 0rem 0.12rem;
+        padding: 0.1rem 0.2rem;
+        font-size: 0.9rem;
+    }
+
+    #home-section-heading {
+        font-size: 2.2rem;
+    }
+
+    #home-section-and-navbar > div p{
+        font-size: 1rem;
+    }
+
+    #home-section-and-navbar > div button {
+        border: 3.5px solid white;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #home-section-heading {
+        font-size: 2.1rem;
+    }
+
+    #home-section-and-navbar > div button {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .services-box {
+        width: 85%;
+    }
+    
+    #clients-section {
+        padding: 6.5rem 0rem;
+    }
+}
